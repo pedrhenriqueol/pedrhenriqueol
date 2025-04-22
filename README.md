@@ -1,12 +1,16 @@
-<h1 align="left">Olá <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px">, Me chamo Pedro Henrique</h1>
+<h1 align="left">Olá! Me chamo Pedro Henrique <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"> </h1>
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=pedrohenriqueol&color=yellow" alt="Profile views" />
 </p>
 
-- 🔥 Atualmente estudando na área de TI  
-- 🎓 Aluno da EEEP Luiza de Teodoro Vieira  
+🔥 Atualmente estudando na área de TI
 
+🎓 Aluno da EEEP Luiza de Teodoro Vieira
+
+💻 Interesse profissional em programação e desenvolvimento de soluções tecnológicas
+
+🚀 Focado em aprimorar habilidades tanto em desenvolvimento Web quanto no back-end, com ênfase em linguagens como Java, Python e SQL
 <br>
 
 ## 🛠 &nbsp;Tech Stack
