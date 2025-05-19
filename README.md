@@ -29,8 +29,8 @@
 ## ⚙️ &nbsp;GitHub Analytics
 
 <div align="left">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=pedrohenriqueol&show_icons=true&theme=vision-friendly-dark" alt="Pedro Henrique's GitHub stats"/>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrohenriqueol&layout=compact&theme=vision-friendly-dark" alt="Most used languages"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=pedrhenriqueol&show_icons=true&theme=vision-friendly-dark" alt="Pedro Henrique's GitHub stats"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrhenriqueol&layout=compact&theme=vision-friendly-dark" alt="Most used languages"/>
 </div>
 
 <br><br>
