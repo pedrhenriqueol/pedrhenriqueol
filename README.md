@@ -1,28 +1,34 @@
-<h1 align="left">Olá! Me chamo Pedro Henrique <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"> </h1>
+<h1 align="left">Olá! Me chamo Pedro Henrique 👋</h1>
+<h3 align="left">Desenvolvedor Back-End | PHP (Laravel) & Delphi | React</h3>
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=pedrohenriqueol&color=yellow" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=pedrohenriqueol&color=blue" alt="Profile views" />
 </p>
 
-🔥 Atualmente estudando na área de TI
+🎓 Estudante de **Engenharia de Software** na Unifanor Wyden (Técnico em Informática pela EEEP Luiza de Teodoro Vieira).
 
-🎓 Aluno da EEEP Luiza de Teodoro Vieira
+💼 **Desenvolvedor Back-End** na Qualisoft Sistemas, atuando com desenvolvimento e modernização de ERPs e PDVs corporativos.
 
-💻 Interesse profissional em programação e desenvolvimento de soluções tecnológicas
+🚀 Focado em arquitetura de software, otimização de banco de dados e APIs RESTful.
 
-🚀 Focado em aprimorar habilidades tanto em desenvolvimento Web quanto no back-end, com ênfase em linguagens como Java, Python e SQL
+💡 Trabalhando diariamente com **PHP (Laravel), Delphi (UniGui), TypeScript e React**.
 <br>
 
 ## 🛠 &nbsp;Tech Stack
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
-![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite)
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)
+<p align="left">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Delphi-EE1F46?style=for-the-badge&logo=embarcadero&logoColor=white" alt="Delphi" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <br>
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
 <br>
 
@@ -38,10 +44,13 @@
 ## 📫 Contato
 
 <p align="left">
-  <a href="https://instagram.com/pedrherg" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  <a href="https://linkedin.com/in/pedro-henrique-b0a015391" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:pedrohc.forza@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://instagram.com/pedrherg" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
