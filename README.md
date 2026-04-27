@@ -5,13 +5,13 @@
   <img src="https://komarev.com/ghpvc/?username=pedrohenriqueol&color=blue" alt="Profile views" />
 </p>
 
-🎓 Estudante de **Engenharia de Software** na Unifanor Wyden (Técnico em Informática pela EEEP Luiza de Teodoro Vieira).
+ Estudante de **Engenharia de Software** na Unifanor Wyden (Técnico em Informática pela EEEP Luiza de Teodoro Vieira).
 
-💼 **Desenvolvedor Back-End** na Qualisoft Sistemas, atuando com desenvolvimento e modernização de ERPs e PDVs corporativos.
+ **Desenvolvedor Back-End** na Qualisoft Sistemas, atuando com desenvolvimento e modernização de ERPs e PDVs corporativos.
 
-🚀 Focado em arquitetura de software, otimização de banco de dados e APIs RESTful.
+ Focado em arquitetura de software, otimização de banco de dados e APIs RESTful.
 
-💡 Trabalhando diariamente com **PHP (Laravel), Delphi (UniGui), TypeScript e React**.
+ Trabalhando diariamente com **PHP (Laravel), Delphi (UniGui), TypeScript e React**.
 <br>
 
 ## 🛠 &nbsp;Tech Stack
