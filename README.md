@@ -94,21 +94,24 @@ Desenvolvedor **Full Stack** e Analista de **Qualidade (QA)**, graduando em **En
 </p>
 
 ---
+---
 
-## 📈 GitHub Analytics
+## 🎯 Áreas de Especialidade
+
+| 🔎 Garantia de Qualidade (QA) | 💻 Desenvolvimento Full Stack | 🤖 IA & Automação |
+| :--- | :--- | :--- |
+| • Testes Funcionais & Regressão<br>• Validação de APIs RESTful (`Postman`)<br>• Consultas & Testes em `SQL Server`<br>• Mapeamento 100% de Requisitos | • Back-end estruturado em `PHP/Laravel`<br>• Front-end moderno com `React + TS`<br>• Otimização de Queries (`<500ms`)<br>• Sustentação de Legados (`Delphi`) | • Integração com LLMs (Claude/Gemini)<br>• Prompt Engineering para Negócios<br>• Plataformas Low-code/No-code<br>• Automação de Fluxos & Processos |
+
+---
+
+## 📜 Certificações & Formação Contínua
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pedrhenriqueol&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Estatísticas do GitHub" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrhenriqueol&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas" height="180" />
+  <img src="https://img.shields.io/badge/Google-Cybersecurity_Professional_V2-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity" />
+  <img src="https://img.shields.io/badge/AWS-Cloud_Foundations-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS Cloud Foundations" />
+  <img src="https://img.shields.io/badge/Huawei-Cloud_Service_HCIA-C7000B?style=for-the-badge&logo=huawei&logoColor=white" alt="Huawei HCIA" />
+  <img src="https://img.shields.io/badge/UFC-Fábrica_de_Programadores-005C9E?style=for-the-badge&logo=hackaday&logoColor=white" alt="UFC" />
 </p>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=pedrhenriqueol&theme=tokyonight&hide_border=true&locale=pt_BR" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pedrhenriqueol&theme=tokyo-night&hide_border=true&area=true" alt="Gráfico de contribuições" width="95%" />
-</div>
 
 ---
 
