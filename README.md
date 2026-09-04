@@ -1,124 +1,126 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:1e3a8a,100:3b82f6&height=200&section=header&text=Pedro%20Henrique&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Full%20Stack%20%7C%20QA%20%7C%20AI&descAlignY=60&descSize=18" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:1e3a8a,100:3b82f6&height=200&section=header&text=Pedro%20Henrique&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%7C%20QA%20%7C%20Resilience&descAlignY=60&descSize=18" alt="Header Banner" />
 </div>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=850&lines=Desenvolvedor+Full+Stack;Analista+de+QA+e+Testes;PHP+%7C+Laravel+%7C+React+%7C+TypeScript;Automa%C3%A7%C3%A3o+e+Intelig%C3%AAncia+Artificial;Engenharia+de+Software" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=850&lines=Software+Engineer+%7C+Full+Stack+%26+QA;Node.js+%7C+TypeScript+%7C+PHP+%7C+Laravel+%7C+React;Arquitetura+Resiliente%2C+FinTech+%26+Miss%C3%A3o+Cr%C3%ADtica;Automa%C3%A7%C3%A3o+de+Testes%2C+SLA+p95+%26+Chaos+Engineering" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/pedro-henrique-b0a015391" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://portfolio-frontend-jet-zeta.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/-Portfólio-7aa2f7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
+    <img src="https://img.shields.io/badge/Portfólio-1E293B?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio" />
   </a>
   <a href="mailto:pedrohc.forza@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=pedrhenriqueol&style=for-the-badge&color=7aa2f7&label=Visitas" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=pedrhenriqueol&style=flat-square&color=3b82f6&label=Profile%20Views" alt="Profile views" />
 </p>
 
 ---
 
-## 👨‍💻 Sobre Mim
+## Perfil Profissional
 
-Desenvolvedor **Full Stack** e Analista de **Qualidade (QA)**, graduando em **Engenharia de Software**. Atuo unindo desenvolvimento de aplicações web robustas (**PHP/Laravel, React e TypeScript**), otimização de bancos de dados relacionais, manutenção de sistemas corporativos legados e garantia de qualidade em ambientes de missão crítica.
+Desenvolvedor **Full Stack** e Analista de **Garantia da Qualidade (QA)**, graduando em **Engenharia de Software**. Atuo na interseção entre o desenvolvimento de aplicações escaláveis de alto rendimento (**Node.js, TypeScript, PHP/Laravel, React**) e a engenharia de resiliência e testes automatizados para sistemas corporativos de missão crítica.
 
-- 🚀 **Atualmente:** **Analista de QA / Testes (Estágio) @ SETE Tecnologia** — responsável pelo planejamento, modelagem de cenários e validação de sistemas corporativos para logística aduaneira e portuária (**ZPEs / ePita**), atuando com testes estruturados em **SQL Server** e validação de APIs via **Postman** (redução de 25% de bugs em produção).
-- 💻 **Experiência anterior:** **Desenvolvedor Back-End / Full Stack (Estágio) @ Qualisoft Sistemas** — arquitetura e desenvolvimento de plataformas ERP Multi-tenant com **Laravel, React e TypeScript**, otimização de queries complexas (<500ms), manutenção de sistemas legados em **Delphi** e criação de automações low-code/no-code com **Antigravity**.
-- 🤖 **IA & Automação:** aplicação diária de LLMs generativos (Claude, ChatGPT, Gemini) orientados a Engenharia de Software para pair programming, revisão lógica, documentação técnica e estruturação de prompts de negócio.
-- 🎓 **Formação:** Bacharelando em **Engenharia de Software** — Unifanor Wyden.
-
----
-
-## 🏆 Projetos & Soluções em Destaque
-
-| 📌 | Projeto / Sistema | Destaque Técnico |
-|---|---|---|
-| 💼 | **Retaguarda ERP (Full-Stack)** | Módulo administrativo corporativo com arquitetura isolada via **Docker**, APIs RESTful no back-end (**Laravel**) e SPA client-side (**React + TypeScript**), com controle de acesso **RBAC**. |
-| 🏢 | **Portal Conglomerados** | Plataforma para gestão centralizada multiempresa com consolidação de dados gerenciais em tempo real, permissões granulares e relatórios otimizados via **SQL Server**. |
-| 🚢 | **Garantia de Qualidade — Sistema ePita** | Atuação de QA em plataforma de missão crítica para portos e ZPEs, cobrindo 100% de levantamento de requisitos operacionais e testes contínuos em metodologia **Scrum**. |
-| ⚙️ | **Sustentação & Evolução — Legados ERP** | Diagnóstico, eliminação de bugs críticos e melhoria contínua em ecossistema corporativo desenvolvido em **Delphi** (`TDBGrid`, `TClientDataSet`, `BDE/Paradox`) com centenas de usuários diários. |
+* **Atuação Atual:** **Analista de QA / Testes (Estágio) @ SETE Tecnologia** — Planejamento, modelagem e validação de sistemas para logística aduaneira e portuária (**ZPEs / ePita**). Execução de testes estruturados em **SQL Server**, validação de contratos e automação de APIs via **Postman**, contribuindo para a redução de 25% na incidência de bugs em produção.
+* **Experiência Anterior:** **Desenvolvedor Back-End / Full Stack (Estágio) @ Qualisoft Sistemas** — Arquitetura e sustentação de ERPs corporativos multi-tenant em **Laravel, React e TypeScript**. Otimização de queries relacionais complexas (<500ms), sustentação de ecossistemas legados em **Delphi** e estruturação de automações técnicas.
+* **Engenharia de Resiliência & IA:** Aplicação diária de padrões de arquitetura orientada a eventos, isolamento multi-tenant, validação estrita de contratos de API e uso direcionado de modelos de linguagem para auditoria de código, modelagem de cenários de teste e refatoração arquitetural.
+* **Formação Acadêmica:** Bacharelando em **Engenharia de Software** — UniFanor Wyden.
 
 ---
 
-## 🛠️ Tech Stack
+## Projetos Flagship em Destaque
 
-### Linguagens
-<p align="left">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Delphi-B52E31?style=for-the-badge&logo=delphi&logoColor=white" alt="Delphi" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
-</p>
+Soluções de engenharia desenvolvidas com foco estrito em regras de negócio complexas, arquitetura resiliente, segurança transacional e interfaces de alta densidade técnica.
 
-### Front-End
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-### Back-End & Dados
-<p align="left">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/REST_APIs-008080?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
-</p>
-
-### Qualidade, IA & Automação
-<p align="left">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Claude_AI-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Antigravity-4B0082?style=for-the-badge&logo=lightning&logoColor=white" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/Scrum-2496ED?style=for-the-badge&logo=jira&logoColor=white" alt="Scrum" />
-</p>
-
-### Infra & Ferramentas
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-</p>
-
----
----
-
-## 🎯 Áreas de Especialidade
-
-| 🔎 Garantia de Qualidade (QA) | 💻 Desenvolvimento Full Stack | 🤖 IA & Automação |
+| Projeto | Arquitetura & Stack | Escopo & Diferenciais Técnicos |
 | :--- | :--- | :--- |
-| • Testes Funcionais & Regressão<br>• Validação de APIs RESTful (`Postman`)<br>• Consultas & Testes em `SQL Server`<br>• Mapeamento 100% de Requisitos | • Back-end estruturado em `PHP/Laravel`<br>• Front-end moderno com `React + TS`<br>• Otimização de Queries (`<500ms`)<br>• Sustentação de Legados (`Delphi`) | • Integração com LLMs (Claude/Gemini)<br>• Prompt Engineering para Negócios<br>• Plataformas Low-code/No-code<br>• Automação de Fluxos & Processos |
+| **[PayStream Gateway](https://github.com/pedrhenriqueol/paystream-gateway)** | Fastify, TypeScript, Prisma, PostgreSQL, React 18, Tailwind | **FinTech B2B Settlement Engine:** Orquestração de Pix SPI instantâneo com geração de payload em tempo real, liquidação determinística de split para marketplaces (D+0), tolerância a falhas via chaves de idempotência (24h) e entrega de webhooks assinados criptograficamente via HMAC-SHA256 com mitigação de *timing attacks* (`crypto.timingSafeEqual`). |
+| **[PortLog OS](https://github.com/pedrhenriqueol/portlog-os)** | React, TypeScript, Fastify, Prisma, PostgreSQL, Tailwind | **Industrial Port Logistics & Mission Control:** Plataforma SaaS multi-tenant (`terminalId`) para orquestração de manutenção portuária. Ingestão de telemetria IoT de sensores de berço (temperatura, vibração e pressão), máquina de estados finitos (FSM) para Ordens de Serviço em Kanban com estouro de SLA/MTTR e trilha de auditoria append-only imutável. |
+| **[SPECTR TestOps](https://github.com/pedrhenriqueol/spectr-testops)** | React, TypeScript, Fastify, Framer Motion, Tailwind | **Resilience & API Quality Platform:** Console técnico de TestOps inspirado na ergonomia do Postman. Runner de coleções sequenciais e requisições isoladas, validação recursiva de esquemas JSON Schema/OpenAPI, Chaos Lab para injeção programática de latência/erros 5xx, cálculo estatístico de latência (p50, p95, p99) e exportação de relatórios de SLA. |
+| **Retaguarda ERP & Conglomerados** | Laravel, React, TypeScript, SQL Server, Docker | **Plataformas Corporativas Multi-Tenant:** Painéis administrativos corporativos com controle de acesso RBAC granular, conciliação gerencial de dados em tempo real e otimização de índices em bancos relacionais de alto volume. |
 
 ---
 
-## 📜 Certificações & Formação Contínua
+## Stack Tecnológica & Ferramentas
+
+### Linguagens & Core
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Delphi-B52E31?style=flat-square&logo=delphi&logoColor=white" alt="Delphi" />
+</p>
+
+### Back-End, Bancos de Dados & Arquitetura
+<p align="left">
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/REST_APIs-008080?style=flat-square&logo=fastapi&logoColor=white" alt="RESTful APIs" />
+</p>
+
+### Front-End & Design Systems
+<p align="left">
+  <img src="https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+</p>
+
+### TestOps, Qualidade & Resiliência
+<p align="left">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/JSON_Schema-000000?style=flat-square&logo=json&logoColor=white" alt="JSON Schema" />
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
+  <img src="https://img.shields.io/badge/Chaos_Testing-7C3AED?style=flat-square&logo=target&logoColor=white" alt="Chaos Engineering" />
+  <img src="https://img.shields.io/badge/Scrum-2496ED?style=flat-square&logo=jira&logoColor=white" alt="Scrum" />
+</p>
+
+### Infraestrutura, DevOps & Segurança
+<p align="left">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
+
+---
+
+## Engenharia de Qualidade & Arquitetura
+
+| Engenharia de Qualidade (QA & TestOps) | Engenharia de Software (Full Stack) | Segurança Transacional & Resiliência |
+| :--- | :--- | :--- |
+| ▪ Validação de contratos (JSON Schema/OpenAPI)<br>▪ Automação e asserções de APIs via Postman/Runner<br>▪ Modelagem e execução de queries em SQL Server<br>▪ Análise de requisitos para sistemas aduaneiros (ZPEs) | ▪ Back-end desacoplado em Node.js e PHP/Laravel<br>▪ Front-end em React, TypeScript e Tailwind CSS<br>▪ Otimização de queries relacionais e planos de execução<br>▪ Refatoração e manutenção de ecossistemas legados | ▪ Chaves de idempotência contra concorrência dupla<br>▪ Assinaturas criptográficas HMAC-SHA256 em webhooks<br>▪ Blindagem contra timing attacks (`timingSafeEqual`)<br>▪ Testes de resiliência com injeção de latência e falhas |
+
+---
+
+## Certificações Técnicas
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Google-Cybersecurity_Professional_V2-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity" />
-  <img src="https://img.shields.io/badge/AWS-Cloud_Foundations-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS Cloud Foundations" />
-  <img src="https://img.shields.io/badge/Huawei-Cloud_Service_HCIA-C7000B?style=for-the-badge&logo=huawei&logoColor=white" alt="Huawei HCIA" />
-  <img src="https://img.shields.io/badge/UFC-Fábrica_de_Programadores-005C9E?style=for-the-badge&logo=hackaday&logoColor=white" alt="UFC" />
+  <img src="https://img.shields.io/badge/Google-Cybersecurity_Professional_Certificate-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Cybersecurity" />
+  <img src="https://img.shields.io/badge/AWS-Cloud_Foundations-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900" alt="AWS Cloud Foundations" />
+  <img src="https://img.shields.io/badge/Huawei-Cloud_Service_HCIA-C7000B?style=flat-square&logo=huawei&logoColor=white" alt="Huawei HCIA" />
+  <img src="https://img.shields.io/badge/UFC-Fábrica_de_Programadores-005C9E?style=flat-square&logo=hackaday&logoColor=white" alt="UFC" />
 </p>
 
 ---
 
 <p align="center">
-  <i>"Código limpo, arquitetura sólida e rigor na qualidade de software para escalar soluções."</i>
+  <i>"Rigor técnico na validação, arquitetura previsível na implementação e foco na escalabilidade de sistemas corporativos."</i>
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:414868,100:1a1b27&height=120&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:1e3a8a,100:3b82f6&height=100&section=footer" alt="Footer Banner" />
 </div>
