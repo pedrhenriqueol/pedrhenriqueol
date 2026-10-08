@@ -1,0 +1,52 @@
+{
+  "username": "pedrhenriqueol",
+  "name": "Pedro Henrique",
+  "email": "pedrohc.forza@gmail.com",
+  "portfolio": "https://portfolio-frontend-jet-zeta.vercel.app/",
+  "linkedin": "https://linkedin.com/in/pedro-henrique-b0a015391",
+  "headline": "desenvolvimento full stack + qualidade",
+  "intro": [
+    "Interfaces, APIs e bancos de dados.",
+    "Qualidade, testes e resiliência em cada entrega."
+  ],
+  "about": [
+    "Node.js, TypeScript e React; PHP e Laravel.",
+    "QA / Testes na SETE Tecnologia · experiência na Qualisoft.",
+    "Graduando em Engenharia de Software · UniFanor Wyden."
+  ],
+  "projects": [
+    {
+      "slug": "paystream",
+      "name": "PayStream Gateway",
+      "url": "https://github.com/pedrhenriqueol/paystream-gateway",
+      "kind": "fintech / pagamentos",
+      "lines": ["Pix e split para marketplaces, com idempotência", "e webhooks assinados via HMAC-SHA256."],
+      "stack": "fastify · typescript · prisma · postgresql · react",
+      "diagram": ["       PIX", "        │", "  ┌─────┴─────┐", "  │   split   │", "  └──┬─────┬──┘", "     ↓     ↓", "    A       B"]
+    },
+    {
+      "slug": "portlog",
+      "name": "PortLog OS",
+      "url": "https://github.com/pedrhenriqueol/portlog-os",
+      "kind": "logística / manutenção",
+      "lines": ["Manutenção portuária com telemetria IoT,", "ordens de serviço, SLA e trilha de auditoria."],
+      "stack": "react · typescript · fastify · prisma · postgresql",
+      "diagram": ["  ┌───────────┐", "  │ TERMINAL  │", "  └─────┬─────┘", "        ↓", "  [IoT] [OS]", "   │     │", "   └──SLA┘"]
+    },
+    {
+      "slug": "spectr",
+      "name": "SPECTR TestOps",
+      "url": "https://github.com/pedrhenriqueol/spectr-testops",
+      "kind": "qualidade / resiliência",
+      "lines": ["Runner de APIs, validação de contratos e Chaos Lab.", "Métricas p50, p95 e p99; relatórios de SLA."],
+      "stack": "react · typescript · fastify · framer motion",
+      "diagram": ["  GET /health", "  ───────────", "  status  200", "  schema   OK", "  p95  [ms]", "  ───────────", "  > run tests"]
+    }
+  ],
+  "certifications": [
+    ["GOOGLE", "Cybersecurity Professional Certificate"],
+    ["AWS", "Cloud Foundations"],
+    ["HUAWEI", "Cloud Service HCIA"],
+    ["UFC", "Fábrica de Programadores"]
+  ]
+}
