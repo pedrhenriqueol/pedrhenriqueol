@@ -17,5 +17,4 @@
 <a href="mailto:pedrohc.forza@gmail.com"><img src="./assets/contact.svg" width="100%" alt="Bora conversar? pedrohc.forza@gmail.com · pedrhenriqueol" /></a>
 </p>
 
-<details>
 
