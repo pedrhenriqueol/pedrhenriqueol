@@ -36,6 +36,3 @@ Desenvolvedor Full Stack e Analista de QA, graduando em Engenharia de Software n
 
 [Portfólio](https://portfolio-frontend-jet-zeta.vercel.app/) · [LinkedIn](https://linkedin.com/in/pedro-henrique-b0a015391) · [Email](mailto:pedrohc.forza@gmail.com)
 
-</details>
-
-<sub>Visual inspirado no perfil de <a href="https://github.com/vitorcgo/vitorcgo">vitorcgo</a>; cartões e gerador personalizados. Ícones: <a href="https://simpleicons.org">Simple Icons</a>.</sub>
