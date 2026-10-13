@@ -20,33 +20,62 @@
       "name": "PayStream Gateway",
       "url": "https://github.com/pedrhenriqueol/paystream-gateway",
       "kind": "fintech / pagamentos",
-      "lines": ["Pix e split para marketplaces, com idempotência", "e webhooks assinados via HMAC-SHA256."],
-      "stack": "fastify · typescript · prisma · postgresql · react",
-      "diagram": ["       PIX", "        │", "  ┌─────┴─────┐", "  │   split   │", "  └──┬─────┬──┘", "     ↓     ↓", "    A       B"]
+      "lines": [
+        "Pix e split para marketplaces, com idempotência",
+        "e webhooks assinados via HMAC-SHA256."
+      ],
+      "stack": "fastify · typescript · prisma · postgresql · react"
     },
     {
       "slug": "portlog",
       "name": "PortLog OS",
       "url": "https://github.com/pedrhenriqueol/portlog-os",
       "kind": "logística / manutenção",
-      "lines": ["Manutenção portuária com telemetria IoT,", "ordens de serviço, SLA e trilha de auditoria."],
-      "stack": "react · typescript · fastify · prisma · postgresql",
-      "diagram": ["  ┌───────────┐", "  │ TERMINAL  │", "  └─────┬─────┘", "        ↓", "  [IoT] [OS]", "   │     │", "   └──SLA┘"]
+      "lines": [
+        "Manutenção portuária com telemetria IoT,",
+        "ordens de serviço, SLA e trilha de auditoria."
+      ],
+      "stack": "react · typescript · fastify · prisma · postgresql"
     },
     {
       "slug": "spectr",
       "name": "SPECTR TestOps",
       "url": "https://github.com/pedrhenriqueol/spectr-testops",
       "kind": "qualidade / resiliência",
-      "lines": ["Runner de APIs, validação de contratos e Chaos Lab.", "Métricas p50, p95 e p99; relatórios de SLA."],
-      "stack": "react · typescript · fastify · framer motion",
-      "diagram": ["  GET /health", "  ───────────", "  status  200", "  schema   OK", "  p95  [ms]", "  ───────────", "  > run tests"]
+      "lines": [
+        "Runner de APIs, validação de contratos e Chaos Lab.",
+        "Métricas p50, p95 e p99; relatórios de SLA."
+      ],
+      "stack": "react · typescript · fastify · framer motion"
+    },
+    {
+      "slug": "agente-pedro",
+      "name": "Agente Pedro",
+      "url": "https://github.com/pedrhenriqueol/agente-pedro",
+      "kind": "desktop / produtividade pessoal",
+      "lines": [
+        "Tarefas, hábitos, foco e finanças no Windows.",
+        "Ilha dinâmica e dados guardados no dispositivo."
+      ],
+      "stack": "react · typescript · tauri 2 · rust · sqlite"
     }
   ],
   "certifications": [
-    ["GOOGLE", "Cybersecurity Professional Certificate"],
-    ["AWS", "Cloud Foundations"],
-    ["HUAWEI", "Cloud Service HCIA"],
-    ["UFC", "Fábrica de Programadores"]
+    [
+      "GOOGLE",
+      "Cybersecurity Professional Certificate"
+    ],
+    [
+      "AWS",
+      "Cloud Foundations"
+    ],
+    [
+      "HUAWEI",
+      "Cloud Service HCIA"
+    ],
+    [
+      "UFC",
+      "Fábrica de Programadores"
+    ]
   ]
 }

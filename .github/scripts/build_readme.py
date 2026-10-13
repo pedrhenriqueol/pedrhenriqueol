@@ -12,6 +12,8 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 
+from project_cards import generate as generate_projects
+
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'assets'
 CFG = json.loads((ROOT / 'assets' / 'profile.json').read_text(encoding='utf-8'))
@@ -201,24 +203,7 @@ def buttons():
 
 
 def projects():
-    for i,p in enumerate(CFG['projects']):
-        parts=[ascii_lines(47,86,p['diagram'],19,spacing=21),text(342,100,p['name'],34),text(342,128,p['kind'],15,ACCENT)]
-        for j,s in enumerate(p['lines']):parts.append(text(342,166+j*28,s,20))
-        parts.append(text(342,232,p['stack'],16,MUTED))
-        if p['slug']=='paystream':
-            parts.extend([f'<g class="packet-a">{rect(168,91,5,5,WHITE)}</g>',f'<g class="packet-b">{rect(168,91,5,5,WHITE)}</g>'])
-        elif p['slug']=='portlog':
-            parts.append(f'<g class="signal">{rect(45,180,198,56,"none",2,"#777777")}</g>')
-        elif p['slug']=='spectr':
-            parts.append(f'<g class="request-dot">{rect(78,229,7,3,WHITE)}</g>')
-        card('proj-'+p['slug'],258,f'[01.{i+1}] ~/{p["slug"]}',parts,'abrir repositório ↗')
-    parts=[ascii_lines(47,91,['  ┌───────────┐','  │    ERP    │','  ├───────────┤','  │ RBAC      │','  │ MULTI     │','  │ TENANT    │','  └───────────┘'],19,spacing=21),
-           text(342,100,'Retaguarda ERP',34),text(342,128,'experiência / sistemas corporativos',15,ACCENT),
-           text(342,166,'Painéis administrativos, permissões granulares',20),
-           text(342,194,'e otimização de consultas em bancos relacionais.',20),
-           text(342,232,'laravel · react · typescript · sql server · docker',16,MUTED)]
-    parts.append(f'<g class="heartbeat">{rect(231,168,6,6,WHITE)}</g>')
-    card('proj-erp',258,'[01.4] ~/retaguarda-erp',parts,'experiência profissional')
+    generate_projects(CFG['projects'], OUT)
 
 
 def experience():
@@ -349,6 +334,12 @@ def contact():
 def readme():
     def image(name,alt,url=None):
         tag=f'<img src="./assets/{name}.svg" width="100%" alt="{html.escape(alt,quote=True)}" />'
+        if name.startswith('proj-'):
+            tag = (f'<picture>'
+                   f'<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/{name}-mobile-static.svg" />'
+                   f'<source media="(prefers-reduced-motion: reduce)" srcset="./assets/{name}-static.svg" />'
+                   f'<source media="(max-width: 600px)" srcset="./assets/{name}-mobile.svg" />'
+                   f'{tag}</picture>')
         return f'<a href="{html.escape(url,quote=True)}">{tag}</a>' if url else tag
     pieces=['<!-- Gerado por .github/scripts/build_readme.py. Configuração: assets/profile.json. -->','<p align="center">',
             image('hero',CFG['name']+' · '+CFG['headline']+'. '+' '.join(CFG['intro']+CFG['about']),CFG['portfolio'])]
