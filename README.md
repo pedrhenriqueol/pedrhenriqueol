@@ -1,25 +1,25 @@
 <!-- Gerado por .github/scripts/build_readme.py. Configuração: assets/profile.json. -->
 <p align="center">
-<a href="https://portfolio-frontend-jet-zeta.vercel.app/"><img src="./assets/hero.svg" width="100%" alt="Pedro Henrique · desenvolvimento full stack + qualidade. Interfaces, APIs e bancos de dados. Qualidade, testes e resiliência em cada entrega. Node.js, TypeScript e React; PHP e Laravel. QA / Testes na SETE Tecnologia · experiência na Qualisoft. Graduando em Engenharia de Software · UniFanor Wyden." /></a>
-<a href="https://portfolio-frontend-jet-zeta.vercel.app/"><img src="./assets/btn-portfolio.svg" width="24%" alt="Portfólio" /></a>
-<a href="https://linkedin.com/in/pedro-henrique-b0a015391"><img src="./assets/btn-linkedin.svg" width="24%" alt="LinkedIn" /></a>
-<a href="mailto:pedrohc.forza@gmail.com"><img src="./assets/btn-email.svg" width="24%" alt="Email" /></a>
-<a href="https://github.com/pedrhenriqueol"><img src="./assets/btn-github.svg" width="24%" alt="GitHub" /></a>
+<a href="https://portfolio-frontend-jet-zeta.vercel.app/"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-static.svg" /><source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" /><img src="./assets/hero.svg" width="100%" alt="Pedro Henrique · desenvolvimento full stack + qualidade. Interfaces, APIs e bancos de dados. Qualidade, testes e resiliência em cada entrega. Node.js, TypeScript e React; PHP e Laravel. QA / Testes na SETE Tecnologia · experiência na Qualisoft. Graduando em Engenharia de Software · UniFanor Wyden." /></picture></a>
+<a href="https://portfolio-frontend-jet-zeta.vercel.app/"><picture><source media="(max-width: 600px)" srcset="./assets/btn-portfolio-mobile.svg" /><img src="./assets/btn-portfolio.svg" width="24%" alt="Portfólio" /></picture></a>
+<a href="https://linkedin.com/in/pedro-henrique-b0a015391"><picture><source media="(max-width: 600px)" srcset="./assets/btn-linkedin-mobile.svg" /><img src="./assets/btn-linkedin.svg" width="24%" alt="LinkedIn" /></picture></a>
+<a href="mailto:pedrohc.forza@gmail.com"><picture><source media="(max-width: 600px)" srcset="./assets/btn-email-mobile.svg" /><img src="./assets/btn-email.svg" width="24%" alt="Email" /></picture></a>
+<a href="https://github.com/pedrhenriqueol"><picture><source media="(max-width: 600px)" srcset="./assets/btn-github-mobile.svg" /><img src="./assets/btn-github.svg" width="24%" alt="GitHub" /></picture></a>
 <a href="https://github.com/pedrhenriqueol/paystream-gateway"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/proj-paystream-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/proj-paystream-static.svg" /><source media="(max-width: 600px)" srcset="./assets/proj-paystream-mobile.svg" /><img src="./assets/proj-paystream.svg" width="100%" alt="PayStream Gateway · Pix e split para marketplaces, com idempotência e webhooks assinados via HMAC-SHA256. Stack: fastify · typescript · prisma · postgresql · react" /></picture></a>
 <a href="https://github.com/pedrhenriqueol/portlog-os"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/proj-portlog-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/proj-portlog-static.svg" /><source media="(max-width: 600px)" srcset="./assets/proj-portlog-mobile.svg" /><img src="./assets/proj-portlog.svg" width="100%" alt="PortLog OS · Manutenção portuária com telemetria IoT, ordens de serviço, SLA e trilha de auditoria. Stack: react · typescript · fastify · prisma · postgresql" /></picture></a>
 <a href="https://github.com/pedrhenriqueol/spectr-testops"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/proj-spectr-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/proj-spectr-static.svg" /><source media="(max-width: 600px)" srcset="./assets/proj-spectr-mobile.svg" /><img src="./assets/proj-spectr.svg" width="100%" alt="SPECTR TestOps · Runner de APIs, validação de contratos e Chaos Lab. Métricas p50, p95 e p99; relatórios de SLA. Stack: react · typescript · fastify · framer motion" /></picture></a>
 <a href="https://github.com/pedrhenriqueol/agente-pedro"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/proj-agente-pedro-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/proj-agente-pedro-static.svg" /><source media="(max-width: 600px)" srcset="./assets/proj-agente-pedro-mobile.svg" /><img src="./assets/proj-agente-pedro.svg" width="100%" alt="Agente Pedro · Tarefas, hábitos, foco e finanças no Windows. Ilha dinâmica e dados guardados no dispositivo. Stack: react · typescript · tauri 2 · rust · sqlite" /></picture></a>
 <picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/proj-erp-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/proj-erp-static.svg" /><source media="(max-width: 600px)" srcset="./assets/proj-erp-mobile.svg" /><img src="./assets/proj-erp.svg" width="100%" alt="Retaguarda ERP · Painéis corporativos, RBAC e otimização de consultas. Laravel, React, TypeScript, SQL Server e Docker." /></picture>
-<img src="./assets/experience.svg" width="100%" alt="SETE Tecnologia: estágio em QA / Testes. Qualisoft: estágio em Back-end / Full Stack. Engenharia de Software na UniFanor Wyden." />
-<img src="./assets/stack.svg" width="100%" alt="React, TypeScript, JavaScript, Node.js, PHP, Laravel, Fastify, Prisma, PostgreSQL, Supabase, Postman, OpenAPI, Tailwind, Vite, Docker, Git, GitHub, Vercel. Também: SQL Server, Delphi, Framer Motion, JSON Schema e AWS." />
-<img src="./assets/quality.svg" width="100%" alt="Engenharia de qualidade, arquitetura e resiliência: contratos de API, automação de testes, SQL, idempotência, webhooks assinados e métricas de desempenho." />
-<img src="./assets/certifications.svg" width="100%" alt="Certificações: GOOGLE Cybersecurity Professional Certificate; AWS Cloud Foundations; HUAWEI Cloud Service HCIA; UFC Fábrica de Programadores" />
-<a href="https://github.com/pedrhenriqueol?tab=overview"><img src="./assets/contributions.svg" width="100%" alt="Contribuições no GitHub de pedrhenriqueol — calendário atualizado automaticamente." /></a>
-<a href="mailto:pedrohc.forza@gmail.com"><img src="./assets/contact.svg" width="100%" alt="Bora conversar? pedrohc.forza@gmail.com · pedrhenriqueol" /></a>
+<picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/experience-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/experience-static.svg" /><source media="(max-width: 600px)" srcset="./assets/experience-mobile.svg" /><img src="./assets/experience.svg" width="100%" alt="SETE Tecnologia: estágio em QA / Testes. Qualisoft: estágio em Back-end / Full Stack. Engenharia de Software na UniFanor Wyden." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/stack-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/stack-static.svg" /><source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" /><img src="./assets/stack.svg" width="100%" alt="React, TypeScript, JavaScript, Node.js, PHP, Laravel, Fastify, Prisma, PostgreSQL, Supabase, Postman, OpenAPI, Tailwind, Vite, Docker, Git, GitHub, Vercel. Também: SQL Server, Delphi, Framer Motion, JSON Schema e AWS." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/quality-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/quality-static.svg" /><source media="(max-width: 600px)" srcset="./assets/quality-mobile.svg" /><img src="./assets/quality.svg" width="100%" alt="Engenharia de qualidade, arquitetura e resiliência: contratos de API, automação de testes, SQL, idempotência, webhooks assinados e métricas de desempenho." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/certifications-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/certifications-static.svg" /><source media="(max-width: 600px)" srcset="./assets/certifications-mobile.svg" /><img src="./assets/certifications.svg" width="100%" alt="Certificações: GOOGLE Cybersecurity Professional Certificate; AWS Cloud Foundations; HUAWEI Cloud Service HCIA; UFC Fábrica de Programadores" /></picture>
+<a href="https://github.com/pedrhenriqueol?tab=overview"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/contributions-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-static.svg" /><source media="(max-width: 600px)" srcset="./assets/contributions-mobile.svg" /><img src="./assets/contributions.svg" width="100%" alt="Contribuições no GitHub de pedrhenriqueol — calendário atualizado automaticamente." /></picture></a>
+<a href="mailto:pedrohc.forza@gmail.com"><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/contact-mobile-static.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="./assets/contact-static.svg" /><source media="(max-width: 600px)" srcset="./assets/contact-mobile.svg" /><img src="./assets/contact.svg" width="100%" alt="Bora conversar? pedrohc.forza@gmail.com · pedrhenriqueol" /></picture></a>
 </p>
 
 <details>
-<summary>Perfil e projetos em texto</summary>
+<summary>Perfil completo em texto</summary>
 
 ### Pedro Henrique
 
@@ -35,6 +35,19 @@ Desenvolvedor Full Stack e Analista de QA, graduando em Engenharia de Software n
 - **[SPECTR TestOps](https://github.com/pedrhenriqueol/spectr-testops):** Runner de APIs, validação de contratos e Chaos Lab. Métricas p50, p95 e p99; relatórios de SLA. react · typescript · fastify · framer motion.
 - **[Agente Pedro](https://github.com/pedrhenriqueol/agente-pedro):** Tarefas, hábitos, foco e finanças no Windows. Ilha dinâmica e dados guardados no dispositivo. react · typescript · tauri 2 · rust · sqlite.
 - **Retaguarda ERP:** experiência com painéis corporativos, permissões RBAC e bancos relacionais.
+
+### Tecnologias e engenharia
+
+React, TypeScript, JavaScript, Node.js, PHP, Laravel, Fastify, Prisma, PostgreSQL, Supabase, Postman, OpenAPI, Tailwind, Vite, Docker, Git, GitHub e Vercel.
+
+Também: SQL Server, Delphi, Framer Motion, JSON Schema e AWS. Contratos de API, automação de testes, arquitetura, idempotência, webhooks assinados, métricas e resiliência.
+
+### Certificações
+
+- **GOOGLE:** Cybersecurity Professional Certificate
+- **AWS:** Cloud Foundations
+- **HUAWEI:** Cloud Service HCIA
+- **UFC:** Fábrica de Programadores
 
 [Portfólio](https://portfolio-frontend-jet-zeta.vercel.app/) · [LinkedIn](https://linkedin.com/in/pedro-henrique-b0a015391) · [Email](mailto:pedrohc.forza@gmail.com)
 

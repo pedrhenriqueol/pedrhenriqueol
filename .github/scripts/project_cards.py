@@ -6,11 +6,11 @@ first frame; picture sources provide compact layouts and reduced-motion stills.
 import html
 import textwrap
 
-INK = '#f1f3f5'
-MUTED = '#9a9fa8'
-DIM = '#676e79'
-EDGE = '#2a2e35'
-MINT = '#b1e4d0'
+INK = '#f3f3f3'
+MUTED = '#9f9f9f'
+DIM = '#6d6d6d'
+EDGE = '#2e2e2e'
+ACCENT = '#e0e0e0'
 FONT = "'DejaVu Sans Mono','Liberation Mono',Consolas,monospace"
 
 MOTION = '''
@@ -49,7 +49,7 @@ def text(x, y, value, size=15, fill=INK, anchor='start', **attrs):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{fill}" text-anchor="{anchor}" {extra}>{html.escape(value)}</text>'
 
 
-def box(x, y, w, h, fill='#111419', stroke=EDGE, rx=7):
+def box(x, y, w, h, fill='#141414', stroke=EDGE, rx=7):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{fill}" stroke="{stroke}"/>'
 
 
@@ -64,18 +64,18 @@ def circle(x, y, r, color=EDGE, fill='none', **attrs):
 
 
 def flow(d, delayed=False):
-    return path(d, MINT, 2.5, stroke_dasharray='5 115', class_='flow-delayed' if delayed else 'flow')
+    return path(d, ACCENT, 2.5, stroke_dasharray='5 115', class_='flow-delayed' if delayed else 'flow')
 
 
 def payment_scene():
     routes = ['M144 69V99Q144 111 132 111H74Q62 111 62 123V150',
               'M144 69V99Q144 111 156 111H214Q226 111 226 123V150']
-    p = [text(18, 27, '01 / FLUXO PIX', 12, DIM), box(99, 38, 90, 34), text(144, 60, 'PIX', 15, MINT, 'middle')]
+    p = [text(18, 27, '01 / FLUXO PIX', 12, DIM), box(99, 38, 90, 34), text(144, 60, 'PIX', 15, ACCENT, 'middle')]
     p += [path(d) for d in routes] + [flow(routes[0]), flow(routes[1], True)]
-    p += [box(108, 94, 72, 32, '#151b1b', '#435b53'), text(144, 115, 'split', 13, MINT, 'middle')]
+    p += [box(108, 94, 72, 32, '#1a1a1a', '#555555'), text(144, 115, 'split', 13, ACCENT, 'middle')]
     for x, label in [(24, 'seller A'), (188, 'seller B')]:
         p += [box(x, 150, 76, 34), text(x+38, 172, label, 12, INK, 'middle')]
-    p += [circle(144, 166, 13, '#435b53'), path('M138 166L142 170L150 161', MINT),
+    p += [circle(144, 166, 13, '#555555'), path('M138 166L142 170L150 161', ACCENT),
           text(144, 208, 'idempotência · HMAC', 12, MUTED, 'middle')]
     return ''.join(p)
 
@@ -83,13 +83,13 @@ def payment_scene():
 def port_scene():
     p = [text(18, 27, '02 / TELEMETRIA', 12, DIM)]
     for r in (27, 50, 74): p.append(circle(144, 113, r))
-    p += [path('M62 113H226M144 39V187', '#20272b'),
-          '<g class="radar">'+path('M144 113L192 57', MINT, 1.5)+path('M144 113L199 67', '#435b53', 5)+'</g>',
+    p += [path('M62 113H226M144 39V187', '#262626'),
+          '<g class="radar">'+path('M144 113L192 57', ACCENT, 1.5)+path('M144 113L199 67', '#555555', 5)+'</g>',
           path('M98 152V73H173L199 89H116M113 73V152M173 73V121', INK, 1.5),
           path('M103 81L113 91L103 101L113 111L103 121L113 131', DIM, 1),
-          box(157, 122, 30, 22, '#19211f', '#435b53'), path('M160 128H184M160 135H184', DIM, 1),
-          '<g class="beacon">'+circle(183, 139, 4, MINT, MINT)+circle(183, 139, 9, '#435b53')+'</g>',
-          '<g class="beacon-late">'+circle(95, 102, 3, MINT, MINT)+'</g>',
+          box(157, 122, 30, 22, '#1f1f1f', '#555555'), path('M160 128H184M160 135H184', DIM, 1),
+          '<g class="beacon">'+circle(183, 139, 4, ACCENT, ACCENT)+circle(183, 139, 9, '#555555')+'</g>',
+          '<g class="beacon-late">'+circle(95, 102, 3, ACCENT, ACCENT)+'</g>',
           box(34, 154, 62, 28), text(65, 173, 'IoT', 12, INK, 'middle'),
           box(192, 154, 62, 28), text(223, 173, 'OS', 12, INK, 'middle'),
           text(144, 208, 'sinal → ordem → SLA', 12, MUTED, 'middle')]
@@ -103,22 +103,22 @@ def test_scene():
     for i, (name, value) in enumerate([('GET /health', '200'), ('schema', 'OK'), ('chaos / retry', 'OK')]):
         y = 94+i*29
         p.append(f'<g class="test-row {"second" if i == 1 else "third" if i == 2 else ""}">')
-        p += [path(f'M34 {y-4}l3 3l6 -7', MINT), text(56, y, name, 13), text(250, y, value, 13, MINT, 'end'), '</g>']
+        p += [path(f'M34 {y-4}l3 3l6 -7', ACCENT), text(56, y, name, 13), text(250, y, value, 13, ACCENT, 'end'), '</g>']
     d = 'M36 170H94L102 162L112 176L121 156L133 170H252'
-    p += [path(d, '#34423e'), path(d, MINT, 1.5, stroke_dasharray='36 124', class_='trace'),
+    p += [path(d, '#3f3f3f'), path(d, ACCENT, 1.5, stroke_dasharray='36 124', class_='trace'),
           text(144, 208, 'contratos · latência · falhas', 12, MUTED, 'middle')]
     return ''.join(p)
 
 
 def agent_scene():
-    p = [text(18, 27, '04 / MEU DESKTOP', 12, DIM), circle(144, 116, 72, '#232b29')]
-    p.append('<g class="orbit">'+circle(144, 44, 3, MINT, MINT)+circle(144, 188, 2, DIM, DIM)+'</g>')
-    p += [box(34, 77, 220, 91, '#101613', '#344b41', 12), text(52, 101, 'FOCO', 11, MUTED),
+    p = [text(18, 27, '04 / MEU DESKTOP', 12, DIM), circle(144, 116, 72, '#292929')]
+    p.append('<g class="orbit">'+circle(144, 44, 3, ACCENT, ACCENT)+circle(144, 188, 2, DIM, DIM)+'</g>')
+    p += [box(34, 77, 220, 91, '#151515', '#454545', 12), text(52, 101, 'FOCO', 11, MUTED),
           text(52, 132, '25:00', 27), text(53, 153, 'uma tarefa por vez', 10, MUTED),
-          circle(220, 122, 20, '#293e34', stroke_width=3),
-          circle(220, 122, 20, MINT, stroke_width=3, stroke_dasharray='126', stroke_dashoffset=75, class_='focus'),
-          path('M216 115V129M223 115V129', MINT, 2)]
-    p += ['<g class="island">', box(78, 46, 132, 23, '#171e1b', '#435b53', 12), circle(93, 57, 2, MINT, MINT),
+          circle(220, 122, 20, '#393939', stroke_width=3),
+          circle(220, 122, 20, ACCENT, stroke_width=3, stroke_dasharray='126', stroke_dashoffset=75, class_='focus'),
+          path('M216 115V129M223 115V129', ACCENT, 2)]
+    p += ['<g class="island">', box(78, 46, 132, 23, '#1c1c1c', '#555555', 12), circle(93, 57, 2, ACCENT, ACCENT),
           text(112, 61, 'ilha dinâmica', 9, INK), '</g>',
           text(144, 208, 'hábitos · finanças · local', 12, MUTED, 'middle')]
     return ''.join(p)
@@ -130,7 +130,7 @@ def erp_scene():
     for i, (name, count) in enumerate([('admin', 5), ('equipe', 3), ('leitura', 1)]):
         y=98+i*31
         p += [text(44, y, name, 13), f'<g class="access {"second" if i == 1 else "third" if i == 2 else ""}">']
-        for j in range(5): p.append(box(142+j*18, y-11, 12, 13, '#b1e4d0' if j<count else '#1c2224', 'none', 2))
+        for j in range(5): p.append(box(142+j*18, y-11, 12, 13, '#e0e0e0' if j<count else '#212121', 'none', 2))
         p.append('</g>')
     p += [text(144, 208, 'RBAC · consultas · painéis', 12, MUTED, 'middle')]
     return ''.join(p)
@@ -153,24 +153,24 @@ def render(project, index, mobile=False, still=False):
     title = f'[01.{index}] ~/{slug}'
     alt = project['name']+' · '+' '.join(project['lines'])+' Stack: '+project['stack']
     css = '' if still else MOTION
-    p = [box(1, 1, width-2, height-2, '#090b0e', EDGE, 10),
+    p = [box(1, 1, width-2, height-2, '#0b0b0b', EDGE, 10),
          '<rect x="2" y="2" width="'+str(width-4)+'" height="'+str(height-4)+'" rx="9" fill="url(#scan)"/>',
          text(24, 30, title, 14, MUTED), text(width-24, 30, 'DESKTOP' if slug=='agente-pedro' else 'FULL STACK' if slug=='erp' else 'PROJETO', 12, DIM, 'end'),
          path(f'M1 48H{width-1}', EDGE, 1)]
     x = 32 if mobile else 342
     p += [text(x, 92 if mobile else 101, project['name'], 32, INK),
-          text(x, 122 if mobile else 130, project['kind'], 16, MINT)]
+          text(x, 122 if mobile else 130, project['kind'], 16, ACCENT)]
     lines = textwrap.wrap(' '.join(project['lines']), width=40 if mobile else 50)
     for i, value in enumerate(lines): p.append(text(x, (164 if mobile else 171)+i*28, value, 21 if mobile else 20))
     tags = textwrap.wrap(project['stack'], width=48 if mobile else 58, break_long_words=False)
     for i, value in enumerate(tags): p.append(text(x, (254 if mobile else 247)+i*24, value, 17 if mobile else 16, MUTED))
     sx, sy = (156, 302) if mobile else (24, 68)
-    p += [f'<g transform="translate({sx} {sy})">', box(0, 0, 288, 226, '#0d1014', '#232830', 8), SCENES[slug](), '</g>']
+    p += [f'<g transform="translate({sx} {sy})">', box(0, 0, 288, 226, '#101010', '#282828', 8), SCENES[slug](), '</g>']
     if not mobile:
         p += [path('M324 76V282', EDGE, 1), text(342, 287, DETAILS[slug][0], 12, DIM)]
     footer = height-46
     p += [path(f'M24 {footer}H{width-24}', EDGE, 1), text(24, height-19, DETAILS[slug][1], 12 if mobile else 14, MUTED),
-          text(width-24, height-19, 'experiência' if slug=='erp' else 'ver projeto ↗', 12 if mobile else 14, MINT if slug!='erp' else DIM, 'end')]
+          text(width-24, height-19, 'experiência' if slug=='erp' else 'ver projeto ↗', 12 if mobile else 14, ACCENT if slug!='erp' else DIM, 'end')]
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
 <title id="title">{html.escape(project['name'])}</title><desc id="desc">{html.escape(alt)}</desc>
 <defs><pattern id="scan" width="4" height="6" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#fff" stroke-opacity=".018"/></pattern></defs>

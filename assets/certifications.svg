@@ -1,34 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="276" viewBox="0 0 1000 276" role="img" aria-labelledby="title desc">
-<title id="title">[05] ~/certificações</title><desc id="desc">Cartão do perfil de Pedro Henrique</desc>
-<defs><pattern id="scan" width="4" height="7" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#fff" stroke-opacity=".025"/></pattern>
-<clipPath id="content-area"><rect x="2" y="51" width="996" height="223"/></clipPath>
-<clipPath id="typing-clip"><rect class="typing-reveal" x="48" y="258" width="650" height="40"/></clipPath></defs>
-<style>text{font-family:'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace;font-variant-ligatures:none}
-.cursor{animation:blink 1.1s steps(1,end) infinite}
-.rain-column{animation:fall 12s linear infinite}
-.frame{animation:frameCycle 8s steps(1,end) infinite}
-.typing-reveal{animation:typing 1.8s steps(40,end) 1}
-.packet-a{animation:packetA 2.8s ease-in-out infinite}
-.packet-b{animation:packetB 2.8s ease-in-out infinite .35s}
-.signal{animation:signal 3.6s ease-in-out infinite}
-.request-dot{animation:requestDot 3.8s linear infinite}
-.heartbeat{animation:heartbeat 4s ease-in-out infinite}
-.calendar-sweep{animation:calendarSweep 12s linear infinite}
-@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-@keyframes fall{from{transform:translateY(0)}to{transform:translateY(630px)}}
-@keyframes frameCycle{0%{opacity:1}2.5%,100%{opacity:0}}
-@keyframes typing{from{width:0}to{width:650px}}
-@keyframes packetA{0%{transform:translate(0,0);opacity:0}15%{opacity:1}45%{transform:translate(0,42px)}75%{transform:translate(-46px,78px);opacity:1}100%{transform:translate(-46px,96px);opacity:0}}
-@keyframes packetB{0%{transform:translate(0,0);opacity:0}15%{opacity:1}45%{transform:translate(0,42px)}75%{transform:translate(46px,78px);opacity:1}100%{transform:translate(46px,96px);opacity:0}}
-@keyframes signal{0%,100%{opacity:.18}50%{opacity:.8}}
-@keyframes requestDot{0%{transform:translateX(0);opacity:0}10%{opacity:1}80%{transform:translateX(136px);opacity:1}100%{transform:translateX(136px);opacity:0}}
-@keyframes heartbeat{0%,100%{opacity:.25}50%{opacity:1}}
-@keyframes calendarSweep{from{transform:translateX(0)}to{transform:translateX(865px)}}
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="398" viewBox="0 0 1000 398" role="img" aria-labelledby="title desc">
+<title id="title">[05] ~/certificações</title><desc id="desc">Certificações: GOOGLE Cybersecurity Professional Certificate; AWS Cloud Foundations; HUAWEI Cloud Service HCIA; UFC Fábrica de Programadores</desc>
+<defs><pattern id="scan" width="4" height="6" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#fff" stroke-opacity=".018"/></pattern>
+<radialGradient id="shadow"><stop stop-color="#000" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+<style>text{font-family:'DejaVu Sans Mono','Liberation Mono',Consolas,monospace;font-variant-ligatures:none}
+.model-frame{animation:modelFrame 6s steps(1,end) infinite}
+.sweep{animation:sweep 10s linear infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.pulse.second{animation-delay:-2.5s}
+.dash{animation:dash 8s linear infinite}
+@keyframes modelFrame{0%{opacity:1}1.66667%,100%{opacity:0}}
+@keyframes sweep{0%{transform:translateX(-40px)}100%{transform:translateX(1000px)}}
+@keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
+@keyframes dash{to{stroke-dashoffset:-120}}
 @media(prefers-reduced-motion:reduce){
- .cursor,.rain-column,.frame,.typing-reveal,.packet-a,.packet-b,.signal,.request-dot,.heartbeat,.calendar-sweep{animation:none!important}
- .frame{opacity:0!important}.frame.first{opacity:1!important}
- .calendar-sweep,.packet-a,.packet-b,.request-dot{opacity:0!important}
+.model-frame,.sweep,.pulse,.dash{animation:none!important}
+.model-frame{opacity:0!important}.model-frame.first{opacity:1!important}
+.sweep{opacity:0!important}
 }
 </style>
-<rect x="1" y="1" width="998" height="274" rx="8" fill="#080808" stroke="#292929"/><rect x="1" y="1" width="998" height="274" rx="8" fill="url(#scan)" stroke="none"/>
-<text x="30" y="31" font-size="15" fill="#dddddd" >[05] ~/certificações</text><text x="968" y="31" font-size="15" fill="#999999" text-anchor="end">aprendizado contínuo</text><path d="M1 50H999" stroke="#292929"/><text x="38" y="92" font-size="18" fill="#dddddd" >GOOGLE</text><text x="207" y="92" font-size="20" fill="#f5f5f5" >Cybersecurity Professional Certificate</text><text x="38" y="141" font-size="18" fill="#dddddd" >AWS</text><text x="207" y="141" font-size="20" fill="#f5f5f5" >Cloud Foundations</text><text x="38" y="190" font-size="18" fill="#dddddd" >HUAWEI</text><text x="207" y="190" font-size="20" fill="#f5f5f5" >Cloud Service HCIA</text><text x="38" y="239" font-size="18" fill="#dddddd" >UFC</text><text x="207" y="239" font-size="20" fill="#f5f5f5" >Fábrica de Programadores</text></svg>
+<rect x="1" y="1" width="998" height="396" rx="10" fill="#0b0b0b" stroke="#2e2e2e"/><rect x="2" y="2" width="996" height="394" rx="9" fill="url(#scan)"/><text x="24" y="30" font-size="14" fill="#9f9f9f" text-anchor="start" >[05] ~/certificações</text><text x="976" y="30" font-size="11" fill="#6d6d6d" text-anchor="end" >APRENDIZADO</text><path d="M1 48H999" fill="none" stroke="#2e2e2e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" /><text x="32" y="94" font-size="27" fill="#f3f3f3" text-anchor="start" >Aprendizado contínuo.</text><rect x="32" y="123" width="461" height="96" rx="8" fill="#111111" stroke="#2e2e2e"/><circle cx="62" cy="154" r="12" fill="none" stroke="#2e2e2e" /><path d="M56 153l4 4l8 -8" fill="none" stroke="#e0e0e0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><text x="86" y="160" font-size="18" fill="#f3f3f3" text-anchor="start" >GOOGLE</text><text x="52" y="192" font-size="17" fill="#9f9f9f" text-anchor="start" >Cybersecurity Professional</text><text x="52" y="213" font-size="17" fill="#9f9f9f" text-anchor="start" >Certificate</text><rect x="507" y="123" width="461" height="96" rx="8" fill="#111111" stroke="#2e2e2e"/><circle cx="537" cy="154" r="12" fill="none" stroke="#2e2e2e" /><path d="M531 153l4 4l8 -8" fill="none" stroke="#e0e0e0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><text x="561" y="160" font-size="18" fill="#f3f3f3" text-anchor="start" >AWS</text><text x="527" y="192" font-size="17" fill="#9f9f9f" text-anchor="start" >Cloud Foundations</text><rect x="32" y="231" width="461" height="96" rx="8" fill="#111111" stroke="#2e2e2e"/><circle cx="62" cy="262" r="12" fill="none" stroke="#2e2e2e" /><path d="M56 261l4 4l8 -8" fill="none" stroke="#e0e0e0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><text x="86" y="268" font-size="18" fill="#f3f3f3" text-anchor="start" >HUAWEI</text><text x="52" y="300" font-size="17" fill="#9f9f9f" text-anchor="start" >Cloud Service HCIA</text><rect x="507" y="231" width="461" height="96" rx="8" fill="#111111" stroke="#2e2e2e"/><circle cx="537" cy="262" r="12" fill="none" stroke="#2e2e2e" /><path d="M531 261l4 4l8 -8" fill="none" stroke="#e0e0e0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><text x="561" y="268" font-size="18" fill="#f3f3f3" text-anchor="start" >UFC</text><text x="527" y="300" font-size="17" fill="#9f9f9f" text-anchor="start" >Fábrica de Programadores</text><path d="M24 352H976" fill="none" stroke="#2e2e2e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" /><text x="24" y="379" font-size="12" fill="#9f9f9f" text-anchor="start" >segurança · cloud · desenvolvimento</text><text x="976" y="379" font-size="12" fill="#6d6d6d" text-anchor="end" >[05]</text></svg>
