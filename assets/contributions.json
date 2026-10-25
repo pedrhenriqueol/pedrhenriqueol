@@ -1,45 +1,10 @@
 {
   "username": "pedrhenriqueol",
-  "updated": "2026-10-24",
-  "followers": 42,
+  "updated": "2026-10-25",
+  "followers": 44,
   "repositories": 19,
-  "total": 336,
+  "total": 339,
   "days": [
-    {
-      "date": "2025-10-19",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-20",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-21",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-22",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-23",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-24",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-25",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-10-26",
       "level": 0,
@@ -1859,6 +1824,11 @@
       "date": "2026-10-24",
       "level": 0,
       "count": 0
+    },
+    {
+      "date": "2026-10-25",
+      "level": 1,
+      "count": 3
     }
   ]
 }
